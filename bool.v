@@ -30,7 +30,7 @@ Definition implication (b₁ b₂ : 𝔹) : 𝔹 :=
 	end.
 
 Notation "¬" := not.
-Infix "∧" := conjunction (at level 80, right  associativity).
+Infix "∧" := conjunction (at level 80, right associativity).
 Infix "∨" := disjunction (at level 85, right associativity).
 Infix "→" := implication (at level 99, right associativity).
 
